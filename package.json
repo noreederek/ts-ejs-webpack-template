@@ -1,5 +1,5 @@
 {
-  "name": "wpts",
+  "name": "ts-webpack-boilerplate",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,12 +10,14 @@
     "watch": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "noreederek",
   "license": "ISC",
   "devDependencies": {
     "@types/lodash": "^4.14.195",
+    "css-loader": "^6.8.1",
     "ejs-webpack-loader": "^2.2.2",
     "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.3",
     "ts-loader": "^9.4.3",
     "typescript": "^5.0.4",
     "webpack": "^5.84.1",
